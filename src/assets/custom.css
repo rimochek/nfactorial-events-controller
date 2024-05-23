@@ -1,0 +1,43 @@
+:root {
+  --bulma-scheme-main: black;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.navbar-item {
+  color: white;
+  font-size: 20pt;
+}
+
+.box-image {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  width: 200px;
+}
+
+.form {
+  padding: 15px;
+  width: 400px;
+  align-content: center;
+}
+
+.card-content {
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+
+.media {
+  margin-bottom: 10px !important;
+  --bulma-media-spacing: 0rem !important;
+}
