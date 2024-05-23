@@ -1,16 +1,29 @@
 # nfactorial-events-controller
 
-This template should help get you started developing with Vue 3 in Vite.
+Веб-Приложение для Nfactorial Incubator. Приложение уже запущено - https://rimochek.github.io/nfactorial-events-controller/
 
-## Recommended IDE Setup
+## Технологии использованы
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Для фронтенда использовал фреймворк Vue.js, а также библиотеку компонентов Bulma.js. Для бэкенда использовал Supabase.
 
-## Customize configuration
+## Что сделано и что не сделано
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Сделано
+- Авторизация
+- Просмотр ивентов
 
-## Project Setup
+### Не сделано
+- Страницы ивентов
+- Регистрация на ивенты
+
+## Запуск
+
+Сначало нужно будет зарегестрироваться на Supabase и получить необходимые токены и вставить:
+
+```sh
+VITE_SUPABASE_URL={url}
+VITE_SUPABASE_ANON_KEY={key}
+```
 
 ```sh
 npm install
